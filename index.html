@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Trabalho - Formulário</title>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <h1>Formulário</h1>
+            <div class="form-row">
+                <div class="form-group col-md-8">
+                    <label for="nome">Nome:</label>
+                    <input type="text" class="form-control" id="nome">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="data">Data de Nascimento:</label>
+                    <input type="date" class="form-control" id="data">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="nome-mãe">Nome da mãe:</label>
+                    <input type="text" class="form-control" id="mãe">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="nome-pai">Nome do pai:</label>
+                    <input type="text" class="form-control" id="pai">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" class="form-control" id="cidade">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="curso">Curso:</label>
+                    <select class="form-control" id="curso">
+                        <option value="">Selecione o Curso</option>
+                        <option value="">Enfermagem</option>
+                        <option value="">Informática</option>
+                        <option value="">Comércio</option>
+                        <option value="">Administração</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="turma">Turma:</label>
+                    <input type="text" class="form-control" id="turma">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-3">
+                    <label for="endereço">Endereço:</label>
+                    <input type="text" class="form-control" id="endereço">
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="complemento">Complemento:</label>
+                    <input type="text" class="form-control" id="complemento">
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="bairro">Bairro:</label>
+                    <input type="text" class="form-control" id="bairro">
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="cep">CEP:</label>
+                    <input type="text" class="form-control" id="cep" maxlength="8">
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar dado</button>
+        </form>
+    </div>
+<script src="script.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
